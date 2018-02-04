@@ -1,0 +1,117 @@
+body {
+	font-size: 16px;
+	color: #fff;  /* white*/
+	background-color: #99CCCC;
+	font-family: 'Open Sans', sans-serif;
+	height: 1200px;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #22787C;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lobster Two', cursive;
+	color: #fff;
+	font-size: 1.7em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+  	padding-bottom: 10px;
+  	line-height: 20px;
+}
+#collapsing-nav {
+	color: #fff;
+}
+#nav-list {
+  margin-top: 10px;
+  }
+#nav-list a {
+  color: #fff;
+}
+#nav-list a:hover {
+  background: black;
+  opacity: 50%;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/*  END HEADER  */
+
+/** main content **/
+
+#page-title h2 {
+	margin-top: 5px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #22787C;
+	margin: 5 auto 5;
+	padding-bottom: 15px;
+	/*text-align: center;*/
+}
+/*#section-chicken .container {
+	background-color: #CAE5E4;
+}*/
+
+
+#section-text {
+	background-color: #CAE5E4;
+	border: 5px black;
+	color: #22787C;
+}
+#section-text span {
+	font-weight: bold;
+	font-size: 1.1em ;
+}
+#section-text p {
+	font-size: .9em;
+	padding: 10px;
+}
+
+/*********** LARGE DEVICES ONLY ************
+@media (min-width: 1200px) and (max-width: 1199) {
+}*/
+
+/*********** MEDIUM DEVICES ONLY ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*********** SMALL DEVICES ONLY ************/
+@media (min-width: 768) and (max-width: 991px) {
+	/** header **/
+
+}
+
+/*********** EXTRA SMALL DEVICES ONLY ************/
+@media (max-width: 767px) {
+
+/** header **/
+.navbar-brand h1 {
+	font-size: 5vw;
+}
+/** header end **/
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+/** header **/
+.navbar-brand h1 {
+	font-size: 7vw;
+}
+/** header end **/
